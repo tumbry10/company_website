@@ -21,4 +21,6 @@ from main import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='home'),
+    path('if_condition', views.if_condition, name='if_condition'),
+    path('if_for_loop', views.if_for_loop, name='if_for_loop'),
 ]
